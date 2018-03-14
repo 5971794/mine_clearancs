@@ -1,0 +1,91 @@
+*{
+		margin:0;
+		padding: 0;
+	}
+	/* #A385D4 */
+	.warpper {
+		width: 1000px;
+		height: 40px;
+		margin: 30px auto;
+		text-align: center;
+	}
+	.warpper span{
+		margin:0px 50px;
+		display: inline-block;
+		width: 90px;
+		height: 40px;
+		background-color: #00AFF4;
+		position: relative;
+		font-size: 30px;
+		font-family: "Microsoft YaHei";
+		line-height: 40px;
+		cursor: pointer;
+	}
+	.warpper .togo{
+		background-color: #A385D4;
+	}
+	.warpper span p{
+		display: inline-block;
+		position: absolute;
+		bottom: 2px;
+		text-align: center;
+		color: #333;
+
+	}
+	ul{
+		margin: 0 auto;
+		width: 810px;
+		height: 432px;
+		cursor: pointer;
+		border: 4px solid #A385D4;
+		position: relative;
+
+
+	}
+	.mines{
+		
+	}
+	li{
+		list-style:none;
+		width: 25px;
+		height: 25px;
+		background-image: url(../images/z001.png);
+		background-repeat: no-repeat;
+		background-size: 25px 25px;
+		margin:1px;
+		float: left;
+		text-align: center;
+		line-height: 25px;
+		font-size: 0;
+		font-family: "Microsoft YaHei";
+		color: #fff;
+		opacity: 1;
+	}
+
+	.white{
+		background-image: url(../images/z002.png);
+		background-repeat: no-repeat;
+		background-size: 25px 25px;
+		font-size: 14px;
+		
+	}
+	
+	.minesshow{
+		background-image: url(../images/z003.png);
+		background-repeat: no-repeat;
+		background-size: 25px 25px;
+		font-size: 0;
+	}
+		.minesshow1{
+		background-image: url(../images/z004.png);
+		background-repeat: no-repeat;
+		background-size: 25px 25px;
+		font-size: 0;
+	}
+	.flag{
+		background-image: url(../images/z005.png);
+		background-repeat: no-repeat;
+		background-size: 25px 25px;
+		font-size: 0;
+		
+	}
